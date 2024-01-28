@@ -7,3 +7,6 @@ price = 20.99
 
 print(name, age, price)
 
+print("name is singh")
+
+print("My name is singh")
