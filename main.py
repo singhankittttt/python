@@ -43,3 +43,5 @@ name = "Tony Stark"
 print(name.upper())
 # 0 index
 print(name.find('s'))
+
+print("hi")
