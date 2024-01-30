@@ -45,3 +45,4 @@ print(name.upper())
 print(name.find('s'))
 
 print("hi")
+print("my name is singh")
