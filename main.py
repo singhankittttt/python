@@ -87,3 +87,51 @@ b = 4.25
 print(type(a))
 print(a + b)'''
 
+# name = input("Enter your name: ")
+# print("welcome", name)
+
+# WAP to check if a number entered by the user is odd or even
+
+'''num = int(input("Enter a number: "))
+if (num % 2 == 0):
+    print("It is a even number")
+else:
+    print("It is an odd number")'''
+
+# WAP to find the greatest of 3 number entered by the user
+
+'''a = int(input("enter first number: "))
+b = int(input("enter second number: "))
+c = int(input("enter a third number: "))
+d = int(input("enter a fourth number: "))
+
+if (a >= b and a >= c and a >= d):
+    print("first number is largest", a)
+elif (b >= a and b >= c and b >= d):
+    print("second number is largest", b)
+elif (c >= a and c >= b and c >= d):
+    print("third is largest", c)
+else:
+    print("fourth is largest", d)'''
+
+# WAP to check if a number is a multiple of 7 or not
+
+'''x = int(input("enter a number: "))
+
+if (x % 5 == 0):
+    print("multiple of 5")
+else:
+    print("not a multiple")'''
+
+# list in python
+# list are mutable
+
+marks = [94.4, 65.2, 54.9, 87.6]
+print(marks)
+print(len(marks))
+print(marks[0])
+
+# Strings are immutable
+'''str = "hello"
+print(str[0])
+str[0] = "y"''' 
