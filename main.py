@@ -42,7 +42,7 @@ print("the sum is : " + str(sum))'''
 name = "Tony Stark"
 print(name.upper())
 # 0 index
-print(name.find('s'))
+print(name.find('S'))
 
 print("hi")
 print("my name is singh")
