@@ -149,8 +149,35 @@ print(marks[-3:-1])'''
 
 # List Methods
 
-list = [2, 1, 9, 8, 7]
+# list = [2, 1, 9, 8, 7]
 # list.append(9)
 # list.sort()
-list.sort(reverse=True)
-print(list)
+# list.sort(reverse=True)
+# list.insert(0, 6)
+# list.remove(1)
+# list.pop(0)
+# print(list)
+
+# Tuples in Python
+# A built-in data types that lets us create immutable sequences of values.
+
+'''tup = (87, 54, 84, 62, 21)
+print(type(tup))
+print(tup[1])
+tup[0] = 5'''
+
+'''tup = ("ankit")
+print(tup)
+print(type(tup))'''
+
+# Q.) WAP to ask the user to enter names of their 3 favourite movies & store them in a list.
+
+'''movies = []
+movies.append(input("enter 1st movie: "))
+movies.append(input("enter 2nd movie: "))
+movies.append(input("enter third movie: "))
+
+print(movies)'''
+
+# Q.) WAP to check if a list contains a palindrome of elements.(Hint: use copy() method)
+
