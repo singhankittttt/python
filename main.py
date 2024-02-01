@@ -181,3 +181,4 @@ print(movies)'''
 
 # Q.) WAP to check if a list contains a palindrome of elements.(Hint: use copy() method)
 
+print("hello")
