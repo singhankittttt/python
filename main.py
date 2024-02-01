@@ -126,12 +126,31 @@ else:
 # list in python
 # list are mutable
 
-marks = [94.4, 65.2, 54.9, 87.6]
+'''marks = [94.4, 65.2, 54.9, 87.6]
 print(marks)
 print(len(marks))
-print(marks[0])
+print(marks[0])'''
+
+'''student = ["karan", 95.4, 17, "Delhi"]
+print(student[0])
+student[0] = "arjun"
+print(student)'''
 
 # Strings are immutable
 '''str = "hello"
 print(str[0])
-str[0] = "y"''' 
+str[0] = "y"'''
+
+# List Slicing
+
+'''marks = [87, 54, 65, 21, 38]
+print(marks[0:4])
+print(marks[-3:-1])'''
+
+# List Methods
+
+list = [2, 1, 9, 8, 7]
+# list.append(9)
+# list.sort()
+list.sort(reverse=True)
+print(list)
