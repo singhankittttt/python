@@ -172,11 +172,11 @@ print(type(tup))'''
 
 # Q.) WAP to ask the user to enter names of their 3 favourite movies & store them in a list.
 
-'''movies = []
+movies = []
 movies.append(input("enter 1st movie: "))
 movies.append(input("enter 2nd movie: "))
 movies.append(input("enter third movie: "))
 
-print(movies)'''
+print(movies)
 
 # Q.) WAP to check if a list contains a palindrome of elements.(Hint: use copy() method)
