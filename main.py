@@ -209,5 +209,59 @@ if (copy_listn == listn):
 else:
     print("NOT palindrome")
 
-print(listn.count("A"))'''
+print(listn.count("A"))
+listn.sort()
+print(listn)'''
 
+# Dictionary in python
+# dictionary are mutable(changeable), unordered & don't allow duplicate keys
+# "key" : value
+
+'''dict = {
+    "name": "ankit",
+    "age": 25,
+    12.99: 94.4,
+    "key": "value",
+    "cgpa": 9.6,
+    "marks": [98, 97, 95],
+    "is_adult": True,
+    "subject": ["python", "C", "Java"]
+}
+
+print(dict)
+print(dict["is_adult"])
+print(type(dict))
+dict["name"] = "anima"
+print(dict)'''
+
+'''null_dict = {}
+null_dict["name"] = "singh"
+print(null_dict)'''
+
+# Nested dictionaries
+
+student = {
+    "name": "ankit singh",
+    "score": {
+        "chem": 98,
+        "phy": 99,
+        "math": 97
+    }
+}
+
+# print(student)
+
+# nested dictionary
+
+# print(student["score"]["chem"])
+
+# Dictionary methods
+
+# print(len(list(student.keys())))
+# print(student.values())
+# print(list(student.items()))
+
+# pairs = list(student.items())
+# print(pairs[0])
+
+# print(student.get("name"))
