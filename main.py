@@ -170,13 +170,29 @@ tup[0] = 5'''
 print(tup)
 print(type(tup))'''
 
+# Tuple methods
+'''tup = (2, 1, 3, 1)
+print(tup.index(3))
+print(tup.count(5))'''
+
 # Q.) WAP to ask the user to enter names of their 3 favourite movies & store them in a list.
 
-movies = []
+'''movies = []
 movies.append(input("enter 1st movie: "))
 movies.append(input("enter 2nd movie: "))
 movies.append(input("enter third movie: "))
 
-print(movies)
+print(movies)'''
 
 # Q.) WAP to check if a list contains a palindrome of elements.(Hint: use copy() method)
+
+'''list1 = [1, "abc", "abc", 1]
+list2 = [1, 2, 3]
+
+copy_list1 = list2.copy()
+copy_list1.reverse()
+
+if (copy_list1 == list1):
+    print("palindrome")
+else:
+    print("NOT palindrome")'''
