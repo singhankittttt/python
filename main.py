@@ -197,3 +197,17 @@ if (copy_list1 == list1):
 else:
     print("NOT palindrome")'''
 
+# WAP to count the number of students with the "A" grade in the following tuple.
+
+'''listn = ["C", "D", "A", "A", "B", "B", "A"]
+
+copy_listn = listn.copy()
+copy_listn.reverse()
+
+if (copy_listn == listn):
+    print("palindrome")
+else:
+    print("NOT palindrome")
+
+print(listn.count("A"))'''
+
