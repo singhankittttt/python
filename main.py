@@ -240,14 +240,14 @@ print(null_dict)'''
 
 # Nested dictionaries
 
-student = {
+'''student = {
     "name": "ankit singh",
     "score": {
         "chem": 98,
         "phy": 99,
         "math": 97
     }
-}
+}'''
 
 # print(student)
 
@@ -265,5 +265,3 @@ student = {
 # print(pairs[0])
 
 # print(student.get("name"))
-
-print("hello world")
