@@ -265,3 +265,5 @@ student = {
 # print(pairs[0])
 
 # print(student.get("name"))
+
+print("hello world")
