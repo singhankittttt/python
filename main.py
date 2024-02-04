@@ -228,6 +228,7 @@ print(listn)'''
     "subject": ["python", "C", "Java"]
 }
 
+dict.update()
 print(dict)
 print(dict["is_adult"])
 print(type(dict))
@@ -265,3 +266,28 @@ print(null_dict)'''
 # print(pairs[0])
 
 # print(student.get("name"))
+
+# new_dict = {"name": "money singh", "age": 16}
+# student.update(new_dict)
+
+# print(student)
+
+# Sets in Python
+# each element in the set must be unique & immutable(not change).
+# duplicates values are not allowed in sets
+
+'''collection = {1, 2, 2, 2, 3, 4, "hello", "wolrd", 4}
+set2 = {1, 2, 2, 2}
+# repeated elements stored only once, so it resolved to {1,2}
+
+print(collection)
+print(type(collection))
+print(len(collection))
+null_set = set()
+print(type(null_set))'''
+
+# Sets Methods
+collect = set()
+collect.add()
+
+print(collect)
