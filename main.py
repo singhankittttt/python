@@ -288,6 +288,13 @@ print(type(null_set))'''
 
 # Sets Methods
 collect = set()
-collect.add()
+collect.add(1)
+collect.add(2)
+collect.add("ankit")
+collect.add((1, 2, 3))
+collect.add({1, 2, 3})
 
+# collect.remove(1)
+# collect.remove(7)
+# Unhasable type means 
 print(collect)
