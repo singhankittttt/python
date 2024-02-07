@@ -287,7 +287,7 @@ null_set = set()
 print(type(null_set))'''
 
 # Sets Methods
-collect = set()
+'''collect = set()
 collect.add(1)
 collect.add(2)
 collect.add("ankit")
@@ -296,5 +296,55 @@ collect.add({1, 2, 3})
 
 # collect.remove(1)
 # collect.remove(7)
-# Unhasable type means 
-print(collect)
+# Unhasable type means
+print(collect)'''
+
+'''n1 = 0
+n2 = 1
+n3 = 1
+
+if (n3 >= n1 + n2):
+    print("it is a fibonacci series")
+else:
+    print("it is not a fibonacci series")'''
+
+# Fibonacci series
+
+'''nterms = int(input("enter number of terms: "))
+
+n1, n2 = 0, 1
+count = 0
+
+if nterms <= 0:
+    print("enter a positive ineteger")
+elif nterms == 1:
+    print("fibonacci sequences upto", nterms, ":")
+    print(n1)
+else:
+    print("fibonacci sequences: ")
+
+    while count < nterms:
+        print(n1)
+        nth = n1 + n2
+        n1 = n2
+        n2 = nth
+        count += 1'''
+
+# factorial of a given number
+
+
+def factorial(n):
+    if n < 0:
+        return 0
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        fact = 1
+        while (n > 1):
+            fact *= n
+            n -= 1
+        return fact
+
+
+num = 5
+print("Factorial of", num, "is", factorial(num))
