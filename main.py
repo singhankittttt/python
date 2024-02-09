@@ -333,7 +333,7 @@ else:
 # factorial of a given number
 
 
-def factorial(n):
+'''def factorial(n):
     if n < 0:
         return 0
     elif n == 0 or n == 1:
@@ -347,4 +347,6 @@ def factorial(n):
 
 
 num = 5
-print("Factorial of", num, "is", factorial(num))
+print("Factorial of", num, "is", factorial(num))'''
+
+print("hello")
