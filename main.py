@@ -291,13 +291,71 @@ print(type(null_set))'''
 collect.add(1)
 collect.add(2)
 collect.add("ankit")
-collect.add((1, 2, 3))
-collect.add({1, 2, 3})
+collect.add((1, 2, 3))'''
+
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 7, 8}
+# collect.add({1, 2, 3})
 
 # collect.remove(1)
 # collect.remove(7)
-# Unhasable type means
-print(collect)'''
+# collect.clear()
+# print(len(collect))
+# print(collect.pop())
+# print(collect.pop())
+
+# print(set1.union(set2))
+# print(set1.intersection(set2))
+# print(set1)
+# list are Unhasable type means an alogorithms where we change values of one type to another type
+# print(collect)
+
+# Q.) store following word meanings in a python dictionary:
+#   table: "a piece of furniture", "list of facts & figures"
+#   cat : "a small animal"
+
+'''dic = {
+    "table": ["a piece of furniture", "list of facts & figures"],
+    "cat": "a small animal"
+}
+
+print(dic)'''
+
+# Q.) you are given a list of subjects for students. assume one classroom is required for 1 subject. how many classrooms are needed by all students.
+'''subjects = {
+    "python", "java", "c++", "python", "javascript", "java",
+    "python", "java", "c++", "c"
+}
+
+print(len(subjects))'''
+
+# wap to enter marks of 3 subjects from the user and store them in a dictionary. start with an empty dictionary & add one by one. use subject name as key & marks as value
+
+'''marks = {}
+
+x = int(input("enter phy: "))
+marks.update({"phy": x})
+
+x = int(input("enter chem: "))
+marks.update({"chem": x})
+
+x = int(input("enter math: "))
+marks.update({"math": x})
+
+print(marks)'''
+
+# figure out a way to store 9 & 9.0 as seperate values in the set.
+# (you can take help of built-in data types)
+
+# values = {9, 9.25, 8, "8.0"}
+# print(values)
+
+'''value = {
+    ("float", 9.0),
+    ("int", 9)
+}
+
+print(value)'''
 
 '''n1 = 0
 n2 = 1
@@ -348,4 +406,12 @@ else:
 
 num = 5
 print("Factorial of", num, "is", factorial(num))'''
+
+
+# Loops in Python
+# loops are used to repeat instructions.
+
+count = 1
+while count <= 5 :
+   print("hello")
 
