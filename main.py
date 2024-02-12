@@ -411,7 +411,8 @@ print("Factorial of", num, "is", factorial(num))'''
 # Loops in Python
 # loops are used to repeat instructions.
 
-count = 1
-while count <= 5 :
-   print("hello")
+'''count = 1
+while count <= 5:
+    print("hello")'''
 
+print("hello")
