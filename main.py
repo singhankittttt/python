@@ -480,7 +480,9 @@ nums = (1, 4, 9, 25, 36, 49, 64, 81, 100)
 
 x = 36
 
-i = 0
+i = 0  # initialization
 while i < len(nums):
-    print(nums[i])
+    if (nums[i] == x):
+        print("FOUND at idx", i)
+   #  print(nums[i])
     i += 1
