@@ -410,10 +410,44 @@ print("Factorial of", num, "is", factorial(num))'''
 
 # Loops in Python
 # loops are used to repeat instructions.
+# iteration - complete of one loop
 
 '''count = 1
 while count <= 5:
-    print("hello")'''
+    print("hello")
+    count += 1'''
 
-print("hello")
+'''i = 1
+while i <= 10:
+    print("anky", i)
+    i += 1'''
 
+'''i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+print("loop  ended")'''
+
+'''i = 5
+while i >= 1:
+    print(i)
+    i -= 1'''
+
+# 1.) print numbers from 1 to 100.
+
+'''i = 1
+while i <= 100:
+    print(i)
+    i += 1'''
+
+# 2.) print number from 100 to 1
+
+'''i = 100
+while i >= 1:
+    print(i)
+    i -= 1'''
+
+# 3.) print the multiplication table of a number n.
+
+i = 
