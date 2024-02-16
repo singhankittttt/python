@@ -459,16 +459,19 @@ while i <= 10:
 # 4.) print the elements of the following list using a loop:
 #     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
-nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-heroes = ["ironman", "thor", "krrish", "batman"]
+# nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# heroes = ["ironman", "thor", "krrish", "batman"]
 
 # traverse(travel in every single items inside a loop or list is called traverse.)
 '''indx = 0
 while indx < len(nums):
     print(nums[indx])
-    indx += 1'''
+    indx += 1
 
 i = 0
 while i < len(heroes):
     print(heroes[i])
-    i += 1
+    i += 1'''
+
+# 5.) search for a number x in this tuple using loop:
+# [1, 4, 9, 25, 36, 49, 64, 81, 100]
