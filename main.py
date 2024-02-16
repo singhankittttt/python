@@ -450,12 +450,25 @@ while i >= 1:
 
 # 3.) print the multiplication table of a number n.
 
-n = int(input("enter number: "))
+'''n = int(input("enter number: "))
 i = 1
 while i <= 10:
     print(17*i)
-    i += 1
+    i += 1'''
 
 # 4.) print the elements of the following list using a loop:
 #     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
+nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+heroes = ["ironman", "thor", "krrish", "batman"]
+
+# traverse(travel in every single items inside a loop or list is called traverse.)
+'''indx = 0
+while indx < len(nums):
+    print(nums[indx])
+    indx += 1'''
+
+i = 0
+while i < len(heroes):
+    print(heroes[i])
+    i += 1
