@@ -450,4 +450,12 @@ while i >= 1:
 
 # 3.) print the multiplication table of a number n.
 
-i = 
+n = int(input("enter number: "))
+i = 1
+while i <= 10:
+    print(17*i)
+    i += 1
+
+# 4.) print the elements of the following list using a loop:
+#     [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
