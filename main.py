@@ -606,13 +606,13 @@ print("some useful work")'''
 
 # Q.) wap to find the sum of a first n natural numbers. (using while)
 
-n = 7
+'''n = 7
 sum = 0
 i = 1
 while i <= n:
     sum += i
     i += 1
-print("total sum = ", sum)
+print("total sum = ", sum)'''
 
 # for i in range(n+1):
 #    print(i)
@@ -620,3 +620,15 @@ print("total sum = ", sum)
 
 
 # wap to find the factorial of first n numbers.(using for)
+
+n = 7
+fact = 1
+i = 1
+while i <= n:
+    fact *= i
+    i += 1
+
+print("factorial =", fact)
+
+# for i in range(n):
+# print(n * n-1)
