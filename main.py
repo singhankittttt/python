@@ -555,11 +555,25 @@ for num in list:
 # search for a number x in this tuple using loop:
 # [1,4,9,16,25,36,49,64,81,100]
 
-nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+'''nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+x = 9
 
-x = 25
-
-i = 0
+idx = 0
 for el in nums:
-    print("nums")
-        
+    if (el == x):
+        print("number found at idx", idx)
+        break
+    idx += 1'''
+
+# Range()
+# range function returns a sequences of numbers, starting from 0 by default, and increments by 1(by default), and stops before a specified number.
+
+# print(range(5))
+seq = range(10)
+for i in seq:
+    print(i)
+
+# print(seq[0])
+# print(seq[1])
+# print(seq[2])
+# print(seq[3])
