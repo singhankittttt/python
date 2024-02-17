@@ -569,8 +569,11 @@ for el in nums:
 # range function returns a sequences of numbers, starting from 0 by default, and increments by 1(by default), and stops before a specified number.
 
 # print(range(5))
-seq = range(10)
+'''seq = range(10)
 for i in seq:
+    print(i)'''
+
+for i in range(10):
     print(i)
 
 # print(seq[0])
