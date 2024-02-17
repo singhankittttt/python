@@ -592,3 +592,31 @@ for i in seq:
 
 for i in range(1, 11):
     print(n * i)'''
+
+# Pass statement
+# pass is a null statement that does nothing. it is used as a placeholder for future code.
+
+'''for i in range(10):
+    pass
+
+if i > 5:
+    pass
+
+print("some useful work")'''
+
+# Q.) wap to find the sum of a first n natural numbers. (using while)
+
+n = 7
+sum = 0
+i = 1
+while i <= n:
+    sum += i
+    i += 1
+print("total sum = ", sum)
+
+# for i in range(n+1):
+#    print(i)
+#    sum += 1
+
+
+# wap to find the factorial of first n numbers.(using for)
