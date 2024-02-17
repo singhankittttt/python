@@ -515,4 +515,14 @@ while i <= 10:
 
 print("hello world")'''
 
- 
+# for loops are used for sequential traversal. for traversing list, string, tuples etc.
+
+nums = [1, 2, 3, 4, 5]
+
+# for val in nums:
+#   print(val)
+
+for val in nums:
+    print(val)
+else:
+    print("END")
