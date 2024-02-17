@@ -517,12 +517,25 @@ print("hello world")'''
 
 # for loops are used for sequential traversal. for traversing list, string, tuples etc.
 
-nums = [1, 2, 3, 4, 5]
+'''nums = [1, 2, 3, 4, 5]
+veggies = ["potato", "brinjal", "ladyfinger", "cucumber"]
 
 # for val in nums:
 #   print(val)
 
-for val in nums:
+for val in veggies:
     print(val)
 else:
-    print("END")
+    print("END")'''
+
+'''tup = (1, 2, 3, 4, 5)
+
+for num in tup:
+    print(num)'''
+
+str = "anky"
+
+for char in str:
+    print(char)
+else:
+    print("end")
