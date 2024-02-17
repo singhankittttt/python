@@ -552,7 +552,7 @@ else:
 for num in list:
     print(num)'''
 
-# search for a number x in this tuple using loop:
+# search for a number x in this tuple using loop(this is also called linear search):
 # [1,4,9,16,25,36,49,64,81,100]
 
 '''nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
@@ -567,6 +567,7 @@ for el in nums:
 
 # Range()
 # range function returns a sequences of numbers, starting from 0 by default, and increments by 1(by default), and stops before a specified number.
+# range(start?, stop, step?)
 
 # print(range(5))
 '''seq = range(10)
@@ -576,15 +577,18 @@ for i in seq:
 # for i in range(10):  # range(stop)
 #   print(i)
 
-# for i in range(2, 10):  # range(start, stop)
+# for i in range(100, 0, -1):  # range(start, stop)
 #    print(i)
 
-for i in range(2, 10, 2):  # range(start, stop, step)
-    print(i)
+# for i in range(1, 100, 2):  # range(start, stop, step)
+#    print(i)
 
 # print(seq[0])
 # print(seq[1])
 # print(seq[2])
 # print(seq[3])
 
-# range(start?, stop, step?)
+'''n = int(input("enter a number: "))
+
+for i in range(1, 11):
+    print(n * i)'''
