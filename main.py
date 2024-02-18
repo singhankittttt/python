@@ -621,14 +621,66 @@ print("total sum = ", sum)'''
 
 # wap to find the factorial of first n numbers.(using for)
 
-n = 7
+'''n = 5
 fact = 1
 i = 1
+
 while i <= n:
     fact *= i
     i += 1
 
-print("factorial =", fact)
+for i in range(1, n+1):
+    fact *= i
+
+print("factorial =", fact)'''
 
 # for i in range(n):
 # print(n * n-1)
+
+# Functions & Recursions
+
+# Functions in python
+# Block of statements that perform a specific task.
+'''a = 5
+b = 10
+
+sum = a + b
+print(sum)'''
+
+
+'''def sum(a, b):
+    s = a + b
+    return s
+
+
+print(sum(2, 98))'''
+
+
+'''def calc_sum(a, b):
+    sum = a + b
+    print(sum)
+    return sum
+
+
+calc_sum(5, 10)
+
+# more lines of code
+
+calc_sum(2, 10)
+
+# more lines of code
+calc_sum(12, 17)'''
+
+# function definition
+
+
+def calc_sum(a, b):  # parameters
+    return a + b
+
+
+sum = calc_sum(1, 2)  # function call; arguments
+print(sum)
+
+
+def print_hello():
+    print("hello")
