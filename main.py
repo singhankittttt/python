@@ -722,7 +722,7 @@ cal_prod()'''
 
 # Q.) waf to print the length of a list. (list is the parameter)
 
-cities = ["delhi", "gurgaon", "noida", "bengaluru", "mumbai", "chennai"]
+'''cities = ["delhi", "gurgaon", "noida", "bengaluru", "mumbai", "chennai"]
 heroes = ["thor", "ironman", "captain america", "vampire"]
 
 
@@ -731,4 +731,6 @@ def print_len(list):
 
 
 print_len(cities)
-print_len(heroes)
+print_len(heroes)'''
+
+# Q.) waf to print the elements of a list in a single line. (list is the parameter)
