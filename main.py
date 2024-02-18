@@ -674,13 +674,61 @@ calc_sum(12, 17)'''
 # function definition
 
 
-def calc_sum(a, b):  # parameters
-    return a + b
+# def calc_sum(a, b):  # parameters
+#    return a + b
 
 
-sum = calc_sum(1, 2)  # function call; arguments
-print(sum)
+# sum = calc_sum(1, 2)  # function call; arguments
+# print(sum)
 
 
-def print_hello():
+'''def print_hello():
     print("hello")
+    return "hello"
+
+
+output  = print_hello()
+print(output)'''
+
+# average of 3 numbers
+
+
+'''def cal_avg(a, b, c):
+    sum = a + b + c
+    avg = sum / 3
+    print(avg)
+    return avg
+
+
+cal_avg(8, 7, 5)'''
+
+# functions in python
+# built in functions
+
+# print("meranaam", end="$")
+# len()
+# type()
+# range()
+
+# Default Parameters
+# assigning a default value to parameter, which is used when no argument is passed.
+
+'''def cal_prod(a=1, b=1):
+    print(a * b)
+    return a * b
+
+
+cal_prod()'''
+
+# Q.) waf to print the length of a list. (list is the parameter)
+
+cities = ["delhi", "gurgaon", "noida", "bengaluru", "mumbai", "chennai"]
+heroes = ["thor", "ironman", "captain america", "vampire"]
+
+
+def print_len(list):
+    print(len(list))
+
+
+print_len(cities)
+print_len(heroes)
