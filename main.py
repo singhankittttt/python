@@ -734,3 +734,5 @@ print_len(cities)
 print_len(heroes)'''
 
 # Q.) waf to print the elements of a list in a single line. (list is the parameter)
+
+print("hello")
