@@ -782,10 +782,25 @@ converter(72)'''
 # prints n to 1 backwards
 
 
-def show(n):
+'''def show(n):
     if (n == 0):
         return
     print(n)
     show(n-1)
 
-show(8)
+
+show(8)'''
+
+# return n!
+
+'''def fact(n):
+    if(n == 0 or n == 1):
+        return 1
+    else:
+        return n * fact(n-1)
+    
+print(fact(4))'''
+
+# Q.) write a recursive function to calculate the sum of first n natural numbers.
+
+
