@@ -735,4 +735,57 @@ print_len(heroes)'''
 
 # Q.) waf to print the elements of a list in a single line. (list is the parameter)
 
-print("hello")
+'''cities = ["delhi", "gurgaon", "noida", "bengaluru", "mumbai", "chennai"]
+heroes = ["thor", "ironman", "captain america", "vampire"]
+
+
+def print_len(list):
+    print(len(list))
+
+
+def print_list(list):
+    for item in list:
+        print(item, end=" ")
+
+
+print_list(cities)'''
+
+# Q.) WAF to find the factorial of n. (n is the parameter)
+
+'''n = 5
+
+
+def cal_fact(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    print(fact)
+
+
+cal_fact(6)'''
+
+# Q.) WAf to convert USD to INR.
+
+
+'''def converter(usd_val):
+    inr_val = usd_val * 83
+    print(usd_val, "USD =", inr_val, "INR")
+
+
+converter(72)'''
+
+# Q.) waf to take value as input and return the value as string odd and even.
+
+# Recursion
+# when a function calls itself repeatedly
+
+# prints n to 1 backwards
+
+
+def show(n):
+    if (n == 0):
+        return
+    print(n)
+    show(n-1)
+
+show(8)
