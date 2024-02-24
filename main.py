@@ -804,3 +804,38 @@ print(fact(4))'''
 # Q.) write a recursive function to calculate the sum of first n natural numbers.
 
 
+'''def calc_sum(n):
+    if (n == 0):
+        return 0
+    return calc_sum(n-1) + n
+
+
+sum = calc_sum(10)
+print(sum)'''
+
+# Q.) write a recursive function to print all elements in a list.
+# Hint: use list & index as parameters.
+
+
+'''def print_list(list, idx=0):
+    if (idx == len(list)):
+        return
+    print(list[idx])
+    print_list(list, idx+1)
+
+
+fruits = ["mango", "apple", "banana", "litchi"]
+
+print_list(fruits)'''
+
+# Files I/O in Python
+# python can be used to perform opeartions on a file.(read & write data)
+
+# Types of all files
+
+# 1. Text Files: ,txt, .docx, .log etc
+# 2. Binary files: .mp4, .mov, .png, .jpeg etc.
+
+f = open("singh.txt", "w")
+
+print(f)
