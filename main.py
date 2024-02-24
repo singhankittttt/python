@@ -978,14 +978,13 @@ print(count)'''
 # print(s1.name)
 
 
-class Car:
-    color = "blue"
-    brand = "mercedes"
+# class Car:
+#    color = "blue"
+#    brand = "mercedes"
 
 
-car1 = Car()
-print(car1.color)
-print(car1.brand)
+# car1 = Car()
+# print(car1.color)
+# print(car1.brand)
 
 # __init__ Function
-
