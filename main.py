@@ -293,6 +293,7 @@ collect.add(2)
 collect.add("ankit")
 collect.add((1, 2, 3))'''
 
+import os
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 7, 8}
 # collect.add({1, 2, 3})
@@ -836,8 +837,63 @@ print_list(fruits)'''
 # 1. Text Files: ,txt, .docx, .log etc
 # 2. Binary files: .mp4, .mov, .png, .jpeg etc.
 
-f = open("singh.txt", "r")
-data = f.read()
-print(data)
-print(type(data))
-f.close()
+# 'r' - open for reading (default)
+# 'w' - open for writing, truncating the file first
+# 'x' - create a new file and open it for writing
+# 'a' - open for writing, appending to the end of the file if it exists
+# 'b' - binary mode
+# 't' - text mode (default)
+# '+' - open a disk for updating (reading and writing)
+
+# f.readline() - read only single line at a time
+
+'''f = open("singh.txt", "rt")
+# data = f.read()
+line1 = f.readline()
+print(line1)
+
+line2 = f.readline()
+print(line2)
+
+# print(type(line1))
+f.close()'''
+
+# writing to a file
+
+# f = open("singh.txt", "a")
+
+# f.write("\nafter that c")
+# f.close()
+
+# f = open("main.txt", "a")
+# f.close()
+
+# f = open("singh.txt", "a+")
+# f.write("abc")
+# print(f.read())
+# f.write("abc")
+# f.close()
+
+# with Syntax:
+
+# with open("singh.txt", "r") as f:
+#    data = f.read()
+#    print(data)
+
+# with open("singh.txt", "w") as f:
+#    f.write("new data")
+
+# Deleting a File
+# using the os module
+# Module (like a code library) is a file written by another programmer that generally has a functions we can use.
+
+# import os
+# os.remove("singh.txt")
+
+# Q.) Create a new file "practice.txt using python. Add the follwing data in it: "
+
+# with open("practice.txt", "w") as f:
+#    f.write("Hi everyone \nwe are learning File I/O \nusing java. \ni like programming in Java")
+
+# Q.) waf that replace all occurences of "java" with "python" in the above file.
+
