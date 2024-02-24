@@ -836,6 +836,8 @@ print_list(fruits)'''
 # 1. Text Files: ,txt, .docx, .log etc
 # 2. Binary files: .mp4, .mov, .png, .jpeg etc.
 
-f = open("singh.txt", "w")
-
-print(f)
+f = open("singh.txt", "r")
+data = f.read()
+print(data)
+print(type(data))
+f.close()
