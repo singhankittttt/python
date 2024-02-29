@@ -971,12 +971,14 @@ print(count)'''
 # class Student:
 #    name = "Ankit Singh"
 
-# creating object (instance)
+# creating object (instance of class)
 
 
 # s1 = Student()
 # print(s1.name)
 
+# s2 = Student()
+# print(s2.name)
 
 # class Car:
 #    color = "blue"
@@ -987,4 +989,30 @@ print(count)'''
 # print(car1.color)
 # print(car1.brand)
 
-# __init__ Function
+#  __init__ Function
+# Constructor - All classes have a function called __init__(), which is always executed when the is being initiated.
+
+'''class Student:
+
+    # default constructors
+    def __init__(self):
+        pass
+
+    # parameterized constructors
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+        print("adding new student in Database..")
+
+
+s1 = Student("Karan", 97)
+print(s1.name, s1.marks)
+
+s2 = Student("Arjun", 88)
+print(s2.name, s2.marks)'''
+# print(s1.name)
+
+# s2 = Student()
+# print(s2.name)
+
+# Class & instances Attributes
