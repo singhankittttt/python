@@ -1020,7 +1020,7 @@ print(s2.name, s2.marks)'''
 # obj.attr
 
 
-class Student:
+'''class Student:
     college_name = "DSU"
     name = "anonymous"  # class attr
 
@@ -1033,9 +1033,47 @@ class Student:
 s1 = Student("Arjun", 91)
 print(s1.name, s1.marks)
 
-print(Student.college_name)
+print(Student.college_name)'''
 
 # Methods
-# creating class 
+# methods are function that belong to objects
 
-print("hi")
+# creating class
+
+
+'''class Student:
+    def __init__(self, fullname):
+        self.name = fullname
+
+    def hello(self):
+        print("hello", self.name)
+
+    def welcome(self):
+        print("welcome student")
+
+# creating object
+
+s1 = Student("karan")
+s1.hello()
+s1.welcome()'''
+
+# Q.) Create student class that takes name & marks of 3 subjects as arguments in constructor. Then create a method to print the average.
+
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def get_avg(self):
+        sum = 0
+        for val in self.marks:
+            sum += val
+        print("hi", self.name, "your avg score is", sum / 3)
+
+
+s1 = Student("tony stark", [98, 97, 99])
+s1.get_avg()
+
+s1.name = "ironman"
+s1.get_avg()
