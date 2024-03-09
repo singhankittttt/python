@@ -1122,7 +1122,7 @@ car1.start()'''
 # Q.) Create methods for debit, credit & printing the balance.
 
 
-class Account:
+'''class Account:
     def __init__(self, bal, acc):
         self.balance = bal
         self.account_no = acc
@@ -1148,4 +1148,25 @@ acc1.debit(1000)
 acc1.credit(500)
 acc1.credit(40000)
 # print(acc1.balance)
-# print(acc1.account_no)
+# print(acc1.account_no)'''
+
+# del keyword
+# used to delete object properties or object itself.
+
+
+'''class Student:
+    def __init__(self, name):
+        self.name = name
+
+
+s1 = Student("ankit")
+print(s1.name)
+del s1.name
+print(s1.name)'''
+
+# private(like) attributes & methods
+# Conceptual implementations in python
+# 
+
+class Account:
+    def __init__(self, acc_no, acc_pass)
