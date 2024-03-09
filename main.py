@@ -1100,7 +1100,7 @@ s1.college()'''
 # wrapping data and functions into a single unit(object).
 
 
-class Car:
+'''class Car:
     def __init__(self):
         self.acc = False
         self.brk = False
@@ -1113,4 +1113,31 @@ class Car:
 
 
 car1 = Car()
-car1.start()
+car1.start()'''
+
+# Encapsulation
+# wrapping data and function into a single unit(object).
+
+# Q.) create Account class with 2 attribute - balance & account no.
+# Q.) Create methods for debit, credit & printing the balance.
+
+
+class Account:
+    def __init__(self, bal, acc):
+        self.balance = bal
+        self.account_no = acc
+
+    # debit method
+    def debit(self, amount):
+        self.balance -= amount
+        print("Rs.", amount, "was debited")
+
+    # credit method
+    def credit(self, amount):
+        self.balance += amount
+        print("Rs.", amount, "was credited")
+
+
+acc1 = Account(10000, 123456)
+print(acc1.balance)
+print(acc1.account_no)
