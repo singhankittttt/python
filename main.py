@@ -1083,6 +1083,18 @@ s1.get_avg()'''
 
 
 class Student:
-    @staticmethod  # decorator
+    @staticmethod  # decorator -  that we want to create static method
     def college():
         print("ABC College")
+
+
+s1 = Student()
+s1.college()
+
+# 'Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
+
+# Abstraction
+# hiding the implementation details of a class and only showing the essential features to the user.
+
+# Encapsulation
+# wrapping data and functions into a single unit(object).
