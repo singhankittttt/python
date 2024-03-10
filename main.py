@@ -1169,7 +1169,7 @@ print(s1.name)'''
 # private attributes & methods are meant to be used only within the class and are not accessible from outside the class.
 
 
-class Account:
+'''class Account:
     def __init__(self, acc_no, acc_pass):
         self.acc_no = acc_no
         self.__acc_pass = acc_pass
@@ -1182,4 +1182,12 @@ acc1 = Account("12345", "abcdef")
 
 print(acc1.acc_no)
 print(acc1.reset_pass())
-# print(acc1.__acc_pass)
+# print(acc1.__acc_pass)'''
+
+# value = 'ankit'
+# print(f"my name is {value}")
+
+import datetime
+
+today = datetime.datetime.today()
+print(f"{today:%B %d, %Y}")
