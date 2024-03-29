@@ -1187,7 +1187,9 @@ print(acc1.reset_pass())
 # value = 'ankit'
 # print(f"my name is {value}")
 
-import datetime
+# import datetime
 
-today = datetime.datetime.today()
-print(f"{today:%B %d, %Y}")
+# today = datetime.datetime.today()
+# print(f"{today:%B %d, %Y}")
+
+print("hello world")
